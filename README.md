@@ -108,12 +108,12 @@ Ele permite que o servidor **receba dados no formato JSON** nas requisições HT
 
 Foram implementadas validações para garantir que os dados enviados estejam corretos.
 
-| Campo    | Regra                                     |
-| -------- | ----------------------------------------- |
-| Nome     | obrigatório e mínimo de 3 caracteres      |
-| Email    | obrigatóriodeve possuir formato válido    |
-| Telefone | obrigatório deve conter 10 ou 11 números  |
-| Mensagem | máximo de 500 caracteres                  |
+| Campo    | Regra                                      |
+| -------- | -----------------------------------------  |
+| Nome     | obrigatório e mínimo de 3 caracteres       |
+| Email    | obrigatório deve possuir formato válido    |
+| Telefone | obrigatório deve conter 10 ou 11 números   |
+| Mensagem | máximo de 500 caracteres                   |
 
 ---
 
@@ -123,7 +123,7 @@ Caso os dados enviados não estejam corretos:
 
 ```json
 {
-  "erro": ""O nome é obrigatório e deve conter pelo menos 3 caracteres" "
+  "erro": "O nome é obrigatório e deve conter pelo menos 3 caracteres" 
 }
 ```
 
